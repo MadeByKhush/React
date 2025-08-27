@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.usercard-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    min-height: 25rem;
+    max-width: 28rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.image {
+    height: 220px;
+    width: auto;
+    object-fit:contain;
+    border-radius: 0.5rem;
+}
+
+.username {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.usesrname-desc {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(62, 62, 62);
+}
